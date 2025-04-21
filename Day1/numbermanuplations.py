@@ -38,3 +38,22 @@ if n%sum==0:
 else:
     print('no')
 
+
+#Happynumber
+num=int(input("Enter a number: "))
+visit=set()
+while num!=1 and num not in visit:
+    visit.add(num)
+    sum=0
+    temp=num
+    while temp>0:
+        d=temp%10
+        sum+=d**2
+        temp//=10
+    num=sum
+if num==1:
+    print("Happy")
+else:
+    print("Unhappy")
+'''
+
