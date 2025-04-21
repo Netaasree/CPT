@@ -57,3 +57,16 @@ else:
     print("Unhappy")
 '''
 
+
+
+
+#find the sequence 0,0,7,6,14,12,21,18......12th term
+n=12
+lst=[0,0]
+for i in range(3,n+1):
+    if i%2==0:
+        n1=6
+
+    else:
+        n2=7
+        
