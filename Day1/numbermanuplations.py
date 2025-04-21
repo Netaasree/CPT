@@ -24,3 +24,17 @@ if sum==copy:
 else:
     print("Fail")
 
+
+
+#nivensnumber
+n=156
+sum=0
+while(n>0):
+    n1=n%10
+    sum+=n1
+    n=n//10
+if n%sum==0:
+    print('yes')
+else:
+    print('no')
+
