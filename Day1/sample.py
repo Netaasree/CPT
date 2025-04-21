@@ -38,4 +38,5 @@ print(lst)
 #print(6>>+2)
 """
 
-print(14%10)
+print(1//2)
+print(5//2)

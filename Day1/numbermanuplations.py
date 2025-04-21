@@ -8,6 +8,7 @@
 8.adam's
 9.magic
 '''
+'''
 #Strong 
 num=145
 copy=num
@@ -62,11 +63,12 @@ else:
 
 #find the sequence 0,0,7,6,14,12,21,18......12th term
 n=12
-lst=[0,0]
-for i in range(3,n+1):
-    if i%2==0:
-        n1=6
-
+seq=[]
+for i in range(1,n+1):
+    if i%2==1:
+        term=7*(i//2)
     else:
-        n2=7
+        term=6*((i//2)-1)
+    seq.append(term)
+print(seq)
         
