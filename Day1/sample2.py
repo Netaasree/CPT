@@ -7,7 +7,7 @@ print([i**2 if i%2==0 else 0 for i in range(1,n+1)])
 a=10
 print([a if a>10 else "smaller number"])
 '''
-
+'''
 #number manuplations in python
 1.arm strong
 2.strong
@@ -18,3 +18,4 @@ print([a if a>10 else "smaller number"])
 7.atomorphic
 8.adam's
 9.magic
+'''
